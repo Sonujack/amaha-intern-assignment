@@ -1,0 +1,339 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Email container */
+.email-container {
+    max-width: 480px;
+    margin: 0 auto;
+    background: white;
+}
+
+/* Logo styling */
+.logo {
+    width: 86px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+/* Header section of the email */
+.email-header {
+    max-height: 72px;
+    max-width: 480px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* Main content section */
+.main {
+    width: 480px;
+    height: 2234px;
+}
+
+/* Main container background */
+.container {
+    height: 320px;
+    width: 480px;
+    background-color: #FFF5F2;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ellipse background design */
+.ellipse {
+    position: absolute;
+    width: 538px;
+    height: 196px;
+    margin-top: 40px;
+    margin-left: -29px;
+    background-color: #E76943;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+/* Image positioning within the container */
+.img-three {
+    position: absolute;
+    width: 273px;
+    height: 439px;
+    margin-top: -33px;
+    margin-left: -61px;
+    z-index: 2;
+}
+
+.img-four {
+    position: absolute;
+    width: 169px;
+    height: 348px;
+    margin-top: 73px;
+    margin-left: 70px;
+    z-index: 2;
+}
+
+.img-six {
+    position: absolute;
+    width: 197px;
+    height: 191px;
+    margin-top: 138px;
+    margin-left: 195px;
+    z-index: 2;
+}
+
+.img-five {
+    position: absolute;
+    width: 160px;
+    height: 317px;
+    margin-top: 3px;
+    margin-left: 320px;
+    z-index: 2;
+}
+
+.img-seven {
+    position: absolute;
+    width: 850px;
+    height: 400px;
+    margin-top: -40px;
+    margin-left: -185px;
+    z-index: 1;
+}
+
+/* Heading text styling */
+.heading {
+    position: absolute;
+    width: 190px;
+    height: 84px;
+    margin-left: 145px;
+    margin-top: 60px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+    z-index: 3;
+    font-family: 'DM Sans';
+}
+
+/* Paragraph styling */
+.para {
+    width: 360px;
+    height: 164px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.para-first {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #4C4C4C;
+    font-weight: 500;
+    font-family: 'Quicksand';
+    margin: 0;
+}
+
+.stong-para {
+    display: block;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.6px;
+    text-align: center;
+    color: #E76943;
+    margin-top: 8px;
+}
+
+.para-again {
+    width: 360px;
+    height: 154px;
+    margin: 20px auto;
+    padding: 2px;
+}
+
+.para-second {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #4C4C4C;
+    font-weight: 500;
+    font-family: 'Quicksand';
+    margin-top: 30px;
+}
+
+/* Content section layout */
+.content-section {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    width: 360px;
+    height: 200px;
+    margin: 50px auto 0;
+}
+
+/* Image container within the content section */
+.image-container img {
+    width: 80px;
+    height: 200px;
+    border-radius: 50% / 25%;
+    object-fit: cover;
+}
+
+/* Text container within the content section */
+.text-container {
+    width: 250px;
+    height: 149px;
+}
+
+.text-container h2 {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #E76943;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19.2px;
+    color: #4C4C4C;
+}
+
+/* Third section of the email */
+.third-section {
+    width: 480px;
+    height: 672px;
+}
+
+/* Quote card layout */
+.quote-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.quote-text {
+    width: 200px;
+    height: 72px;
+    margin-top: 28px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+}
+
+.author {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    margin-top: 10px;
+    color: #4C4C4C;
+}
+
+.union {
+    width: 100px;
+    height: 4px;
+    margin-left: 160px;
+}
+
+/* Footer section */
+.footer {
+    width: 480px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: #fAfAfA;
+    padding: 40px 20px;
+    display: flex;
+}
+
+/* Footer container layout */
+.footer-container {
+    display: flex;
+    margin: auto 40px;
+}
+
+/* Left section of the footer */
+.footer-left {
+    flex: 1;
+}
+
+.footer-left img.logo {
+    max-width: 150px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-right: 120px;
+}
+
+.footer-left p {
+    font-size: 8px;
+    color: #4C4C4C;
+    margin: 5px 0;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.footer-left a {
+    color: #4C4C4C;
+    text-decoration: none;
+}
+
+/* Right section of the footer */
+.footer-right {
+    margin-left: 40px;
+}
+
+/* Social media icons in the footer */
+.social-icons a {
+    width: 88px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 12px;
+    height: 18px;
+}
+
+.app-links a {
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.app-links img {
+    width: 80px;
+    height: 22.5px;
+}
+
+/* Footer links */
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    display: block;
+    color: #666;
+    font-family: 'Quicksand';
+    font-size: 8px;
+    width: 65px;
+    line-height: 15px;
+    font-weight: 500;
+}
